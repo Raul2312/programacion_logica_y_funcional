@@ -27,7 +27,7 @@ fun2 :: [Integer]-> Integer
 fun2 []=0
 fun2 (_:xs)=1 + fun2 xs
 
-main = print(fun1[1,3,5])
+main = print(fun2[1,3,5])
 
 --main = print(lista4["Enchiladas","Pozoles"]"Tacos de asado")
 --main = print(take 3 lista6)
